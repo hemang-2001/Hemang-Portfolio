@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <base target="_blank" />
+  <!--links in new tab-->
+
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <!--==================== DEVICONS ====================-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="" />
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link type="image/png" sizes="16x16" rel="icon" href="assets/img/hemang-avatar.png" />
+  <link type="image/png" sizes="32x32" rel="icon" href="assets/img/hemang-avatar.png" />
+  <link type="image/png" sizes="96x96" rel="icon" href="assets/img/hemang-avatar.png" />
+
+  <title>Hemang Bairwa | Frontend-Web Developer</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Hemang B.</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" target="_self" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" target="_self" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" target="_self" class="nav__link">
+              <i class="uil uil-setting nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#path" target="_self" class="nav__link">
+              <i class="uil uil-compass nav__icon"></i>Path
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ==================== Social ids  -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="mailto:hamang2001@gmail.com" class="home__social-icon">
+              <i class="uil uil-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/hemang-bairwa/" class="home__social-icon">
+              <i class="uil uil-linkedin"></i>
+            </a>
+            <a href="https://github.com/hemang-2001" class="home__social-icon">
+              <i class="uil uil-github"></i>
+            </a>
+            <a href="https://instagram.com/am_hemang" class="home__social-icon">
+              <i class="uil uil-instagram"></i>
+            </a>
+          </div>
+
+          <!-- image bg data -->
+
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                <image class="home__blob-img" x="12" y="18" xlink:href="assets\img\hemang-avatar.png" />
+                <!--image href=""/-->
+              </g>
+            </svg>
+          </div>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'm Hemang Bairwa</h1>
+            <h3 class="home__subtitle">Student | Frontend-Web Developer</h3>
+            <p class="home__description">
+              B.Tech Student at
+              <a href="https://btu.ac.in">Bikaner Technical University</a> and
+              i also learn about <a href="#">Cybersecurity</a> in my free
+              time.
+            </p>
+            <a href="mailto:hamang2001@gmail.com" class="button button--flex button--color">
+              Contact me<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+
+      <div class="about__container container">
+        <div class="about__content container">
+          <div class="about__imgcv">
+            <img src="assets/img/hemang.png" alt="" class="about__img" />
+            <div class="about__buttons">
+              <a download="" href="assets/pdf/hemang's resume.pdf" class="button button--flex">
+                Download CV<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="about__data">
+            <p class="about__description">
+
+              I am a versatile and skilled front-end web developer with a passion for creating dynamic and engaging user experiences. With a solid understanding of HTML, CSS, JavaScript, and ReactJS, I have a proven track record of delivering high-quality web applications that meet the needs of both users and clients. I am also proficient in SQL, and my primary programming language is Python. In addition to my technical skills, I have a creative side that I enjoy exploring through my love of playing guitar.
+
+            </p>
+
+            <p class="about__description">
+
+              I am always seeking new challenges and opportunities to expand my skill set, and I am confident in my ability to bring value to any team. Whether working on a team or independently, I am dedicated to delivering the best possible outcome for each project, and I take pride in my attention to detail and ability to bring ideas to life.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My datasheet</span>
+
+      <div class="skills__container container grid">
+        <div>
+          <!--==================== CODING ====================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+              <div>
+                <h1 class="skills__titless">Coding</h1>
+                <span class="skills__subtitle">Programming languages and tools</span>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">
+                    Python
+                    <i class="devicon-python-plain colored skills__icon-small"></i>
+                  </h3>
+                </div>
+              </div>
+              <div class="skills__data">
+              </div>
+              <div class="skills__data">
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">
+                    HTML, css, JS
+                    <i class="devicon-html5-plain colored skills__icon-small"></i><i
+                      class="devicon-css3-plain colored skills__icon-small"></i><i
+                      class="devicon-javascript-plain colored skills__icon-small"></i>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--==================== TOOLS ====================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-trowel skills__icon"></i>
+              <div>
+                <h1 class="skills__titles">Software Stack</h1>
+                <span class="skills__subtitle">Tech components that I use regularly</span>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">
+                    Git & Github
+                    <i class="devicon-git-plain colored skills__icon-small"></i>
+                  </h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">
+                    Amazon Web Services AWS<i class="devicon-amazonwebservices-plain colored skills__icon-small"></i>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--==================== OTHER ====================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-english-to-chinese skills__icon"></i>
+              <div>
+                <h1 class="skills__titles">Languages</h1>
+                <span class="skills__subtitle">Languages I can communicate with</span>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Hindi</h3>
+                  <span class="skills__number">Native</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__cat"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">English</h3>
+                  <span class="skills__number">Proficient</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__eng"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== path ====================-->
+    <section class="path section" id="path">
+      <h2 class="section__title">Path</h2>
+      <span class="section__subtitle">My personal journey</span>
+
+      <div class="path__container container">
+        <div class="path__tabs">
+          <div class="path__button button--flex path__active" target="_self" data-target="#education">
+            <i class="uil uil-university path__icon"></i>
+            Education
+          </div>
+          <div class="path__button button--flex" target="_self" data-target="#work">
+            <i class="uil uil-briefcase-alt path__icon"></i>
+            Work
+          </div>
+        </div>
+        <div class="path__sections">
+          <!--==================== path CONTENT 1 ====================-->
+          <div class="path__content path__active" data-content id="education">
+            <!--==================== path 1 ====================-->
+            <div class="path__data">
+              <div>
+                <h3 class="path__title" style="text-align: right">
+                  B.Tech in Computer Science Engineering
+                </h3>
+                <span class="path__subtitle" style="
+                      display: flex;
+                      justify-content: flex-end;
+                      text-align: end;
+                    ">Bikaner Technical University</span>
+                <div class="path__calendar" style="text-align: right">
+                  <i class="uil uil-calendar-alt"></i>
+                  2019 - Now
+                </div>
+              </div>
+              <div>
+                <span class="path__rounder"></span>
+                <span class="path__line"></span>
+              </div>
+            </div>
+            <!--==================== path 2 ====================-->
+            <div class="path__data">
+              <div></div>
+              <div>
+                <span class="path__rounder"></span>
+                <span class="path__line"></span>
+              </div>
+              <div>
+                <h3 class="path__title">Class 12th</h3>
+                <span class="path__subtitle">Rawal Convent School, Faridabad</span>
+                <div class="path__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2018 - 2019
+                </div>
+              </div>
+            </div>
+            <!--==================== path 3 ====================-->
+            <div class="path__data">
+              <div>
+                <h3 class="path__title" style="text-align: right">
+                  Class 10th
+                </h3>
+                <span class="path__subtitle" style="
+                      display: flex;
+                      justify-content: flex-end;
+                      text-align: end;
+                    ">RSV Hr. Sec. School, Bikaner</span>
+                <div class="path__calendar" style="text-align: right">
+                  <i class="uil uil-calendar-alt"></i>
+                  2016 - 2017
+                </div>
+              </div>
+              <div>
+                <span class="path__rounder"></span>
+                <span class="path__line"></span>
+              </div>
+            </div>
+          </div>
+          <!--==================== path CONTENT 2 ====================-->
+          <div class="path__content" data-content id="work">
+            <!--==================== path 1 ====================-->
+            <div class="path__data">
+              <div>
+                <h3 class="path__title" style="text-align: right">
+                  Web Development Intern
+                </h3>
+                <span class="path__subtitle" style="
+                      display: flex;
+                      justify-content: flex-end;
+                      text-align: end;
+                    ">Avenue Properties, Mumbai</span>
+                <div class="path__calendar" style="text-align: right">
+                  <i class="uil uil-calendar-alt"></i>
+                  Jul 2022 - Aug 2022
+                </div>
+              </div>
+              <div>
+                <span class="path__rounder"></span>
+                <span class="path__line"></span>
+              </div>
+            </div>
+            <!--==================== path 2 ====================-->
+            <div class="path__data">
+              <div></div>
+              <div>
+                <span class="path__rounder"></span>
+                <span class="path__line"></span>
+              </div>
+              <div>
+                <h3 class="path__title">HR Intern</h3>
+                <span class="path__subtitle">MARS Exploration Pvt. Ltd.</span>
+                <div class="path__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Apr 2022 - May 2022
+                </div>
+              </div>
+            </div>
+            <!--==================== path 3 ====================-->
+            <div class="path__data">
+              <div>
+                <h3 class="path__title" style="text-align: right">
+                  Campus Ambassador
+                </h3>
+                <span class="path__subtitle" style="
+                      display: flex;
+                      justify-content: flex-end;
+                      text-align: end;
+                    ">TRYST, IIT Delhi</span>
+                <div class="path__calendar" style="text-align: right">
+                  <i class="uil uil-calendar-alt"></i>
+                  Jan 2022 - Apr 2022
+                </div>
+              </div>
+              <div>
+                <span class="path__rounder"></span>
+                <span class="path__line"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Hemang B.</h1>
+          <span class="footer__subtitle">Student | Frontend-developer</span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#about" target="_self" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#skills" target="_self" class="footer__link">Skills</a>
+          </li>
+          <li>
+            <a download="" href="assets/pdf/guillemcortes-cv.pdf" class="footer__link">CV</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="mailto:hamang2001@gmail.com" class="footer__social">
+            <i class="uil uil-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/hemang-bairwa/" class="footer__social">
+            <i class="uil uil-linkedin"></i>
+          </a>
+          <a href="https://github.com/hemang-2001" class="footer__social">
+            <i class="uil uil-github"></i>
+          </a>
+          <a href="https://instagram.com/am_hemang" class="footer__social">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div id="copyright">
+
+      </div>
+    </div>
+  </footer>
+
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" target="_self" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!--==================== SWIPER JS ====================-->
+  <script src=""></script>
+  <!--==================== MAIN JS ====================-->
+  <script src="assets/js/main.js"></script>
+  <!--==================== MD-BLOCK ====================-->
+  <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+</body>
+
+</html>
