@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import about from "../../assets/about.avif";
+// import about from "../../assets/about.avif";
 const About = () => {
   return (
     <section className="myPortfolio__about special" id="about">
@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-container">
           <div className="about-image">
             <img
-              src={"../../assets/about.avif"}
+              src={"https://i.ibb.co/drtCQ8p/e030bb1c1fd5bec7ede684b44f808b1b.jpg"}
               alt="A Teen is Coding on Laptop"
               className="about-img"
             />
